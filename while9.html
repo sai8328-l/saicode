@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function sam(){
+            let a =Number(prompt("enter a number"));
+            let sum=0;
+          let x=a;  
+          
+         let temp=0;
+         while(a>0){
+           
+        temp=a%10;
+         let c=temp;
+         let count=1;
+         while(c>0){
+            count=c*count;
+            c--;
+         }
+
+          sum+=count;
+        
+       a= parseInt(a/10) ;
+         
+       
+        }
+        
+        
+if(sum==x){
+    document.write("strong");
+}
+else{
+    document.write("not storng");
+}
+           
+ }
+  sam();
+    </script>
+</body>
+</html>

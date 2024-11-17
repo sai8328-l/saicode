@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function tria(){
+            let a=Number(prompt("Enter a Value"));
+            let b=Number(prompt("ENter b value"));
+            let c=Number(prompt("enter c value"));
+            if(a==60&&b==60 &&c==60 ){
+                document.write("Equilateral Triangle");
+            }
+            else if(a!=b || b!=c || c==a && a+b+c==180 ){
+                document.write("isosceles triangle");
+
+            }
+
+            else if (a!=b && b!=c && c!=a){
+                document.write("scalene triangle");
+            }
+        }
+        tria();
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function lo(){
+            let a=prompt("enter month"); 
+            if(a==1 || a==3 || a==5|| a==7 || a==8 || a==10 || a==12){
+                document.write("31 days ");
+            
+            }
+            else if(a==4||a==6 || a==9 ||  a==11){
+                document.write("30 days");
+            }
+            else if(a==2){
+                document.write("28days");
+            }
+            else{
+                document.write("enter valid month");
+            }
+        }
+        lo();
+    </script>
+</body>
+</html>

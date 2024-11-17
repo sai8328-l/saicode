@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function div(){
+            let a=Number(prompt("enter"));
+            let b=0;
+            for(i=1;i<a;i++){
+           
+            if(a%i==0){
+                b+=i;
+               
+            }
+            
+        }
+       
+       if(b==a){
+        document.write(b+"perfect");
+
+       }
+       else{
+        document.write(b+"not perfect");
+       }
+
+    }  
+        
+    
+    div();
+    </script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function marks(){
+            let che=Number(prompt("enter b marks"));
+            let phy=Number(prompt("enter a marks "));
+            let bio=Number(prompt("enter c marks "));
+            let math=Number(prompt("enter d marks"));
+            let com=Number(prompt("enter com marks")); 
+    let per=((che+phy+bio+math+com)/500)*100;
+    
+    if(per>=90)  {  
+       
+    
+document.write(per + ""+"grade-A");
+
+    }
+    else if(per>=80){
+        document.write(per + ""+"grade-B");
+    }
+    else if(per>=70){
+        document.write(per+""+"grade-c");
+    }
+    else if(per>=60){
+        document.write(per+""+"grade-d");
+            
+        
+    }
+    else if(per>=40){
+        document.write(per+""+"grade-E");
+        
+    }
+    else{
+        document.write(per+"Grade-F")
+    }
+        }
+        marks();
+    </script>
+</body>
+</html>

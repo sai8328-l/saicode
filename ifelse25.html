@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function basic(){
+           let sal=Number(prompt("enter salary"));
+            if (sal>1&&sal<10000){
+                document.write(sal+(sal*(20/100))+(sal*(80/100)));
+            }
+            else if(sal>=10000 && sal<=20000 ){
+                document.write(sal+(sal*(25/100))+(sal*(90/100)));
+            }  
+            else if(sal>=20001){
+                document.write(sal+(sal*(30/100))+(sal*(95/100)));
+            }
+           else{
+document.write("enter valid salary");
+           }
+
+        }
+        basic();
+    </script>
+</body>
+</html>

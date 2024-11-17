@@ -1,0 +1,39 @@
+<!-- armstrong -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <script>
+          function sam(){
+            let a =Number(prompt("enter a number"));
+            let sum=0;
+           
+            let temp=a;
+        while(temp>0){
+         
+         let c =temp%10;
+         
+            sum +=(c*c*c);
+        
+         temp= parseInt(temp/10) ;
+         
+       
+        }
+        
+if(sum==a){
+    document.write("Armstrong");
+}
+else{
+    document.write("not  Arm storng");
+}
+           
+}
+  sam();
+  
+    </script>
+ </body>
+ </html>
