@@ -1,0 +1,40 @@
+#s{
+    background-color: rgb(250, 240, 240);
+    color:black;
+width:70%;
+
+  float:left;
+margin-left: 15%;
+}
+
+
+#k{
+    padding-left: 10px;
+    margin-top:20px;
+}
+#las{
+float: right;
+    padding: 10px;
+    margin-top:42%;
+    background-color: red;
+    color: blanchedalmond;
+   
+
+    
+
+
+}
+#sal{
+float:initial;
+    padding: 10px;
+    margin-top:42%;
+    background-color: red;
+    color: blanchedalmond;
+
+}
+span{
+    color:red;
+}
+* {
+    box-sizing: border-box;
+  }

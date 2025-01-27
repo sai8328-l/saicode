@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reg.css">
+    <script src="reg.js"></script>
+</head>
+
+<body>
+   
+    <div id="s" >
+        <h1 style="text-align: center;"> Registration form</h1>
+        <div id="sss">
+            <br>
+        <form  method="post">
+            <fieldset>
+                <legend >User Details</legend>
+            <div id="ff">
+            <label for="EJ">First Name<span >*</span>:- </label>
+            <input type="text"  id="EJ"  class="EJ" name="E" required placeholder="sai">
+            <span id="jj" class="jj" ></span>
+            <label for="f" class="f">Last Name <span >*</span>:- </label>
+            <input type="text" placeholder="Pakala" id="M" class="M" name="f"   required>
+            <span id="kk" ></span>
+            
+        </div>
+        <br>
+        <div id="h">
+        <label for="e">E-mail<span >*</span>  :-</label>
+        <input type="email" name="e" id="e" required>
+        <span id="kj" ></span>
+        <label for="n" class="t">Mobile Number <span >*</span>:-</label>
+        <input type="tel"  name="n"   id="n" class="n" pattern="[0-9]{10}" maxlength="10" required>
+        <span id="num" ></span>
+    
+    </div>
+    <div id="ss">
+    <fieldset >
+        <legend>Gender</legend>
+       <div id="sxs">
+        <input type="radio" id="g" name="g" required>
+            <label for="g">Male</label>
+        
+            <input type="radio" id="k" name="k">
+            <label for="k">Female</label>
+            
+            <input type="radio" id="i" name="i">
+            <label for="i">Others</label>
+       </div>
+       <span id="ksx"></span>
+    </fieldset><br>
+    <label for="b">Date Of Birth:</label>
+      <input type="date" id="b" name="b" required>
+      <span id="dt" ></span>
+      
+    
+    </div>
+    
+        <div id="a">
+            <label for="a" class="s">House No/Street<span >*</span>:-</label>
+        <input type="text"  name="a" id="add" placeholder="House No,street" required>
+        <span id="ad" class="error-message"></span><br>
+        <label for="ab">City</label>
+        <input list="city" class="ab" required>
+       <datalist id="city">
+    <option value="Nellore">
+    <option value="Kadapa">
+    <option value="Kurnool">
+    <option value="Vijayawada">
+    <option value="Vishakapatnam">
+        <option value="Ongole">
+            <option value="Tirupati">
+            <option value="Guntur">
+            <option value="Chittoor">
+        
+  </datalist><br>
+  <label for="b">State:</label> 
+
+  <input list="state" class="b" id="b" required>
+       <datalist id="state">
+    <option value="Andhra Pradesh">
+    <option value="Arunachal Pradesh">
+    <option value="Assam">
+    <option value="Bihar">
+    <option value="Chhattisgarh">
+        <option value="Goa">
+            <option value="Telangana">
+            <option value="Gujarat">
+            <option value="Tamilnadu">
+        
+  </datalist><br>
+  <label for="nk" class="ss">Pincode</label>
+  <input type="number" id="n"  class="nk" required>
+
+        </div>
+        <textarea placeholder="Address" id="k"></textarea>
+
+</div>
+
+
+</fieldset>
+
+<fieldset>
+    <legend>Education details</legend>
+
+    <label for="ssc">SSC<span >*</span>:-</label><br>
+   <input type="number" id="skc"  class="ssc" required placeholder="CGPA">
+   
+   <label for="gt">School Name</label>
+   <input list="st" id="gt" class="gt" required placeholder="school name">
+   <datalist id="st">
+    <option value="Naryana English medium school">
+    
+    <option value="Sri chaitanya English medium school">
+    <option value="krishna English medium school">
+    <option value="parayana chaitanya English medium school">
+    <option value="kakarakaya English medium school">
+   </datalist>
+
+   <label for="sc">State</label>
+   <input list="kt" id="sc" class="sc" placeholder="state" required>
+  
+       <datalist id="kt">
+    <option value="Andhra Pradesh">
+    <option value="Arunachal Pradesh">
+    <option value="Assam">
+    <option value="Bihar">
+    <option value="Chhattisgarh">
+        <option value="Goa">
+            <option value="Telangana">
+            <option value="Gujarat">
+            <option value="Tamilnadu">
+        
+  </datalist><br>
+  <hr>
+  
+  <label for="se">  Course<span >*</span>:-</label>
+  <input list="select" id="se" class="se">
+  <datalist id="select">
+    <option value="M.P.C">
+        <option value="BI.P.C">
+            <option value="H.E.C">
+                <option value="M.E.C">
+                    <option value="C.E.C">
+  </datalist><br>
+  <label for="inter">Intermediate<span >*</span>:-</label><br>
+  <input type="number" id="inter" class="inter" required placeholder="CGPA/marks">
+  <label for="jt">  College Name</label>
+  <input list="it" id="jt" class="jt" required placeholder="College name">
+  <datalist id="it">
+   <option value="Naryana junior college">
+   
+   <option value="Sri chaitanya junior College">
+   <option value="st.marys junior college">
+   <option value="krishna chaitanya junior collge">
+   <option value="Raos junior college">
+  </datalist>
+
+  <label for="si">State</label>
+  <input list="ktr" id="si" placeholder="state" required>
+ 
+      <datalist id="ktr">
+   <option value="Andhra Pradesh">
+   <option value="Arunachal Pradesh">
+   <option value="Assam">
+   <option value="Bihar">
+   <option value="Chhattisgarh">
+       <option value="Goa">
+           <option value="Telangana">
+           <option value="Gujarat">
+           <option value="Tamilnadu">
+       
+ </datalist><br>
+ <br>
+ <hr>
+ <label for="sec">course</label>
+  <input list="sel" id="sec" name="sec" class="se">
+  <datalist id="sel">
+    <option value="B.SC">
+        <option value="B.COM">
+            <option value="B.TECH">
+                <option value="M.B.B.S">
+                    <option value="B.B.A">
+  </datalist><br>
+ <label for="degree">Bachelors Degree</label><br>
+ <input type="number" id="degree"  class="degree"  required placeholder="CGPA/marks">
+ <label for="ttt">College Name</label>
+ <input list="pt" id="ttt" required placeholder="college name">
+ <datalist id="pt">
+  <option value="krishna chaitanya degree college">
+  
+  <option value="s institute of technologies ">
+  <option value="krishna institute of technologies">
+  <option value="parayana institute of technologies">
+  <option value="kakarakaya  degree college">
+ </datalist>
+
+ <label for="sci">State</label>
+ <input list="kt" id="sci" class="sci" placeholder="state" required>
+
+     <datalist id="kt">
+  <option value="Andhra Pradesh">
+  <option value="Arunachal Pradesh">
+  <option value="Assam">
+  <option value="Bihar">
+  <option value="Chhattisgarh">
+      <option value="Goa">
+          <option value="Telangana">
+          <option value="Gujarat">
+          <option value="Tamilnadu">
+      
+</datalist><br>
+
+
+
+
+
+</fieldset>
+</div>
+<br> <br>
+<button type="button" id="las" onclick="sub()" >submit</button>
+
+<input type="reset" value="reset" id="sal">
+</form>
+<div id="data"></div>
+
+</body>
+</html>

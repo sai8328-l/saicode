@@ -1,0 +1,76 @@
+#icon{
+    font-size:48px;
+    color:whitesmoke;
+}
+#me{
+    padding-right: 235px;
+}
+
+@media screen and (min-width: 620px){
+#icon {
+    display: none;
+}
+#me{
+    display: none;
+} 
+#lo{
+
+padding-left:100%;
+}
+#flo{
+    height: 250px;
+}
+
+}
+h3{
+    text-align:left;
+}
+#bt{
+    background-color: gray;
+    color: white;
+    text-align: left;
+
+}
+#bt:hover{
+    background-color: black;
+
+}
+#card{
+    width: 50px;
+   
+}
+#ic{
+   
+    text-align:center;
+   
+   padding:0px 0px 30px ;
+   margin-bottom: 0%;
+
+}
+#l{
+    display: inline;
+    font-size: 30px;
+    text-align: center;
+    
+    
+    width:auto;
+    
+}
+div button:hover{
+    color:antiquewhite;
+    background-color: black;
+}
+#ico{
+    padding-top: 5%;
+    padding-left: 5%;
+    
+  }
+  #flo{
+    height: 200px;
+    
+  }
+  #piv{
+    padding-top: 100px;
+    padding-left: 20px;
+}
+

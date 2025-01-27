@@ -1,0 +1,19 @@
+.h{
+    background-color: black;
+    color:antiquewhite;
+}
+h4 li{
+    border:2px solid white;
+    background-color: aliceblue;
+    color: black;
+}
+.m {
+    position: fixed;
+}
+.progress,.progress-bar{
+    border:10px;
+    border-radius: 0%;
+}
+footer+span{
+    height: 50px;
+}

@@ -1,0 +1,154 @@
+.menu{
+    padding: 10px;
+
+   position:fixed;
+    
+}
+a{
+    text-decoration: none;
+  
+}
+.m{
+    padding: 20px 40px ;
+    margin: 30px 30px ;
+    position:fixed;
+    text-align: center;
+    border: none;
+}
+div>a{
+    opacity: 0.7;
+}
+div >a:hover{
+    opacity:1.0;
+}
+.about{
+    background-color: gray;
+    color:antiquewhite
+}
+.i{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 50px;
+}
+.about{
+    text-align: justify;
+    padding: 0% 15% 0%;
+    
+    
+}
+.skills{
+    display: block;
+    text-align: center;
+   
+    border: 2px solid white ;
+    background-image: linear-gradient(-320deg, black , white);
+}
+.bu{
+    padding: 10px;
+}
+.bu:hover{
+    background-color: grey;
+    color:antiquewhite
+
+} 
+.u{
+    text-align: center;
+    opacity: 0.5;
+
+    border: 2px solid white;
+    padding: 10px;
+    
+
+}
+.h{
+    background-color: black;
+    color:antiquewhite;
+    
+    
+}
+.u:hover{
+    opacity:1.0;
+}
+h4 li{
+    border:2px solid white;
+    background-color: aliceblue;
+    color: black;
+
+
+}
+.contact{
+    background-color: rgb(231, 228, 228);
+    padding:3%;
+
+}
+div>h3{
+    text-align: center;
+   
+}
+.co{
+    text-align: center;
+    margin-right: 20%;
+    margin-left: auto;
+    
+
+}
+.name,.email,.mess{
+    width:50%;
+    margin-left:21%;
+    background-color: antiquewhite;
+    
+}
+.na,.em{
+    margin-right: 25%;
+}
+.mes{
+    margin-right: 23%;
+}
+.pa{
+    margin-left: 35%;
+}
+.but{
+    width: 50%;
+     padding:10px;
+     margin-top: 10px;
+     margin-left: 21%;
+     background-color: black;
+     color:blanchedalmond;
+}
+.but:hover{
+    background-color: grey;
+    color:antiquewhite;
+}
+span{
+    border:2px solid black;
+    color:white;
+    background-color: black;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding:3%;
+}
+
+    
+
+@media screen and (max-width: 500px) {
+    .menu {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .menu li {float: left;}
+    
+   
+  }
+  .menu,.m{
+    overflow: auto;
+
+  }
+  
+  
+    
