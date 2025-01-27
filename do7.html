@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function seven(){
+            let a=Number(prompt("enter a value"));
+            let b=a;
+           let c=0;
+          
+            do{
+                c=c*10+a%10;
+              
+               a=parseInt(a/10);
+                
+                
+             
+              
+            
+            }
+            while(a!=0){
+                if(b==c){
+                document.write("palindrome");
+              }
+              else{
+                document.write("not  a palindrome");
+              }
+
+            }
+            
+            
+            
+            
+        }
+            
+        seven();
+    </script>
+</body>
+</html>

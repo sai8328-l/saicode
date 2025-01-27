@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body><script>
+    function perctange(){
+        
+        let a = Number(prompt("enter the marks"));
+        let b = Number(prompt("enter the marks"));
+        let c = Number(prompt("enter the marks"));
+        let d = Number(prompt("enter the marks"));
+        let e = Number(prompt("enter the marks"));
+        let t = ((a+b+c+d+e)/500)*100;
+        if(t>=0 && t<=100){
+            switch(true){
+                case t>=90 && t<=100 :
+                document.write("t+ percentage and A grade");
+                 break;
+                 case t>=80 && t<90 :
+                    document.write("t+ percentage and B grade");
+                    break;
+                    case t>=70 && t<80 :
+                    document.write("t+ percentage and C grade");
+                    break;
+                    case t>=60 && t<70 :
+                    document.write("t+ percentage and D grade");
+                    break;
+                    case t>=50 && t<60 :
+                    document.write("t+ percentage and E grade");
+                    break;
+                   case t>=40 && t<50 :
+                 document.write("t+ percentage and f grade");
+                 break;
+                 default :
+                 document.write("t+ improve the syudy");
+                 
+                  
+                 
+            }
+
+        }
+        else{
+            document.write("enter the correct value");
+        }
+
+    
+    
+    
+
+        
+
+    
+    }
+    perctange();
+</script>
+</html>

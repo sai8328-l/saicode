@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function nine(){
+            let a=prompt("enter a value");
+           
+        let i=1;
+
+        do{
+            let j=1;
+            while(j<2*a){
+                if(i<=a && (i==j || i+j==2*a)){
+                    document.write(i);
+                
+                }
+                else if(i==j || i+j==2*a){
+                    document.write(2*a-i);
+                }
+             else{
+                document.write("&nbsp");
+             }
+                j++;
+            }
+            i++;
+            document.write("<br>");
+            }
+        while(i<2*a);
+           
+         
+        } 
+        
+        
+
+
+    
+        nine();
+    </script>
+</body>
+</html>

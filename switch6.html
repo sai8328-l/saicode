@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body><script>
+    function metro(){
+        let a = Number(prompt("enter the value"));
+        if(a>=0 && a<=65){
+        
+            switch(a){
+                case 10 :
+                 document.write("miyapur to kukatapally");
+                 break; 
+                 case 20 :
+                 document.write("miyapur to kphpcolony");
+                 break; 
+                case 15 :
+                 document.write("miyapur to jntu");
+                 break; 
+                 case 30 :
+                 document.write("miyapur to bharatnagar");
+                 break; 
+                 case 45 :
+                 document.write("miyapur to ameerpet");
+                 break; 
+                 default :
+                 document.write("please check ticket cost");
+            }
+        }
+        else{
+            document.write("vaild number");
+        }
+    }
+        
+    
+    metro();
+</script>
+</html>
